@@ -1,0 +1,16 @@
+name: sk/bootstrap-accordion
+title: LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf:bootstrap_accordion.title
+typeName: bootstrap_accordion
+description: LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf:bootstrap_accordion.description
+group: content_blocks_bootstrap
+fields:
+  - identifier: header
+    useExistingField: true
+  - identifier: items
+    type: Collection
+    labelField: title
+    maxitems: 50
+    minitems: 1
+    appearance:
+      collapseAll: true
+      levelLinksPosition: both

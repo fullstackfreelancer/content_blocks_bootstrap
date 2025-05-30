@@ -1,0 +1,58 @@
+name: sk/bootstrap-card
+title: LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf:bootstrap_card.title
+typeName: bootstrap_card
+description: LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf:bootstrap_card.description
+group: content_blocks_bootstrap
+fields:
+  - identifier: header
+    useExistingField: true
+  - identifier: header_layout
+    useExistingField: true
+  - identifier: bodytext
+    useExistingField: true
+    enableRichtext: true
+  - identifier: image
+    useExistingField: true
+    type: File
+    extendedPalette: true
+    minitems: 0
+    maxitems: 1
+    allowed: common-image-types
+    cropVariants:
+      desktop:
+        title: Desktop
+        allowedAspectRatios:
+          portrait:
+            title: Portrait
+            value: 0.75
+          landscape:
+            title: Landscape
+            value: 4 / 3
+        focusArea:
+          x: 0.3
+          y: 0.3
+          width: 0.4
+          height: 0.4
+        coverAreas:
+          - x: 0.1
+            y: 0.8
+            width: 0.8
+            height: 0.1
+      tablet:
+        title: Tablet
+        allowedAspectRatios:
+          square:
+            title: Square
+            value: 0.75
+      smartphone:
+        title: Smartphone
+        allowedAspectRatios:
+          landscape:
+            title: Landscape
+            value: 4 / 3
+  - identifier: imageorient
+    useExistingField: true
+  - identifier: imagewidth
+    useExistingField: true
+  - identifier: imageheight
+    useExistingField: true

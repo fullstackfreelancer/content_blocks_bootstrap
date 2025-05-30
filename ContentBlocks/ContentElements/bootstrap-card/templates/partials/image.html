@@ -1,0 +1,15 @@
+<f:link.typolink parameter="{data.image.0.link}">
+<picture>
+    <source media="(max-width: 480px)" srcset="{f:uri.image(image: image, treatIdAsReference: 1, cropVariant: 'smartphone')}" />
+    <source media="(max-width: 799px)" srcset="{f:uri.image(image: image, treatIdAsReference: 1, cropVariant: 'tablet')}" />
+    <source media="(min-width: 800px)" srcset="{f:uri.image(image: image, treatIdAsReference: 1, cropVariant: 'desktop')}" />
+    <img
+        class="{class} img-fluid"
+        src="{f:uri.image(image: image, treatIdAsReference: 1, cropVariant: 'mobile')}"
+        alt="{image.alternative}"
+        title="{image.title}"
+        role="img"
+        aria-label="{image.description}"
+        />
+</picture>
+</f:link.typolink>

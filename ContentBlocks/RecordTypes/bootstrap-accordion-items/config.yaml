@@ -1,0 +1,11 @@
+name: sk/bootstrap-accordion-items
+table: sk_bootstrapaccordion_items
+prefixFields: false
+typeName: sk_bootstrapaccordion_items
+priority: 30
+fields:
+  - identifier: title
+    type: Text
+  - identifier: text
+    type: Textarea
+    enableRichtext: true

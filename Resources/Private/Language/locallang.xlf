@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+	<file source-language="en" datatype="plaintext" original="EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf" date="2023-03-29T10:11:32Z" product-name="content_blocks_bootstrap">
+		<header/>
+		<body>
+
+			<trans-unit id="bootstrap_card.title">
+				<source>Card</source>
+			</trans-unit>
+			<trans-unit id="bootstrap_card.description">
+				<source>A card element with various options</source>
+			</trans-unit>
+
+			<trans-unit id="bootstrap_accordion.title">
+				<source>Accordion</source>
+			</trans-unit>
+			<trans-unit id="bootstrap_accordion.description">
+				<source>A standard Accordion with inline records</source>
+			</trans-unit>
+
+			<trans-unit id="bootstrap_alert.title">
+				<source>Alert</source>
+			</trans-unit>
+			<trans-unit id="bootstrap_alert.description">
+				<source>Displays an Alert bar with various options</source>
+			</trans-unit>
+			<trans-unit id="bootstrap_alert.field.dismissible.label">
+				<source>Is dismissible</source>
+			</trans-unit>
+			<trans-unit id="bootstrap_alert.field.dismissible.description">
+				<source>Displays a dismiss button when selected</source>
+			</trans-unit>
+			<trans-unit id="bootstrap_alert.field.dismissible.aria.close">
+				<source>close</source>
+			</trans-unit>
+			<trans-unit id="bootstrap_alert.field.color.label">
+				<source>Theme color</source>
+			</trans-unit>
+			<trans-unit id="bootstrap_alert.field.color.description">
+				<source>Bootstrap theme color of the alert</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>

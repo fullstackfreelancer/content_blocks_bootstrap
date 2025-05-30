@@ -1,0 +1,33 @@
+<div id="c{data.uid}" class="card">
+    <f:switch expression="{data.imageorient}">
+        <f:case value="0">
+            <f:render section="imagetop" arguments="{_all}"/>
+        </f:case>
+        <f:case value="8">
+            <f:render section="imagebottom" arguments="{_all}"/>
+        </f:case>
+        <f:defaultCase>
+            <f:render section="imagetop" arguments="{_all}"/>
+        </f:defaultCase>
+    </f:switch>
+</div>
+
+<f:section name="imagetop">
+    <f:if condition="{data.image.0}">
+        <f:render partial="image" arguments="{image:data.image.0,class:'card-image-top'}"/>
+    </f:if>
+    <f:if condition="{data.header}">
+        <f:render partial="header" arguments="{header:data.header,layout:data.header_layout}"/>
+    </f:if>
+    <f:render partial="body" arguments="{bodytext:data.bodytext}"/>
+</f:section>
+
+<f:section name="imagebottom">
+    <f:if condition="{data.header}">
+        <f:render partial="header" arguments="{header:data.header,layout:data.header_layout}"/>
+    </f:if>
+    <f:render partial="body" arguments="{bodytext:data.bodytext}"/>
+    <f:if condition="{data.image.0}">
+        <f:render partial="image" arguments="{image:data.image.0,class:'card-image-bottom'}"/>
+    </f:if>
+</f:section>
