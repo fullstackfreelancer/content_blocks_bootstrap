@@ -1,0 +1,61 @@
+TCEFORM {
+    tt_content{
+
+        header_layout {
+            types{
+                bootstrap_accordion{
+                   altLabels.1 = H1
+                   altLabels.2 = H2
+                   altLabels.3 = H3
+                   altLabels.4 = H4
+                   altLabels.5 = H5
+                }
+                bootstrap_alert < .bootstrap_accordion
+                bootstrap_card < .bootstrap_accordion
+            }
+        }
+
+        header_position {
+            types{
+                bootstrap_accordion{
+                    removeItems = left,right,center
+                    addItems.text-start = left
+                    addItems.text-center = center
+                    addItems.text-end = right
+                }
+                bootstrap_alert < .bootstrap_accordion
+                bootstrap_card < .bootstrap_accordion
+            }
+        }
+
+        space_before_class {
+            types{
+                bootstrap_accordion{
+                    removeItems = extra-small, small, medium, large, extra-large
+                    addItems.mt-1 = 1 Spacer
+                    addItems.mt-2 = 2 Spacers
+                    addItems.mt-3 = 3 Spacers
+                    addItems.mt-4 = 4 Spacers
+                    addItems.mt-5 = 5 Spacers
+                }
+                bootstrap_alert < .bootstrap_accordion
+                bootstrap_card < .bootstrap_accordion
+            }
+        }
+        space_after_class {
+            types{
+                bootstrap_accordion{
+                    removeItems = extra-small, small, medium, large, extra-large
+                    addItems.mb-1 = 1 Spacer
+                    addItems.mb-2 = 2 Spacers
+                    addItems.mb-3 = 3 Spacers
+                    addItems.mb-4 = 4 Spacers
+                    addItems.mb-5 = 5 Spacers
+                }
+                bootstrap_alert < .bootstrap_accordion
+                bootstrap_card < .bootstrap_accordion
+            }
+        }
+
+    }
+}
