@@ -1,16 +1,19 @@
-<div id="c{data.uid}" class="accordion">
-    <f:for each="{data.items}" as="item" iteration="iterator">
-    <div class="accordion-item">
-      <h2 class="accordion-header" id="heading-{iterator.cycle}">
-        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{iterator.cycle}" aria-expanded="true" aria-controls="collapse-{iterator.cycle}">
-          {item.title}
-        </button>
-      </h2>
-      <div id="collapse-{iterator.cycle}" class="accordion-collapse collapse" aria-labelledby="heading-{iterator.cycle}" data-bs-parent="#c{data.uid}">
-        <div class="accordion-body">
-          <f:format.raw>{item.text}</f:format.raw>
+<div id="c{data.uid}">
+    <f:render partial="header" arguments="{_all}"/>
+    <div class="accordion">
+        <f:for each="{data.items}" as="item" iteration="iterator">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="heading-{iterator.cycle}">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{iterator.cycle}" aria-expanded="true" aria-controls="collapse-{iterator.cycle}">
+              {item.title}
+            </button>
+          </h2>
+          <div id="collapse-{iterator.cycle}" class="accordion-collapse collapse" aria-labelledby="heading-{iterator.cycle}" data-bs-parent="#c{data.uid}">
+            <div class="accordion-body">
+              <f:format.raw>{item.text}</f:format.raw>
+            </div>
+          </div>
         </div>
-      </div>
+        </f:for>
     </div>
-    </f:for>
 </div>
