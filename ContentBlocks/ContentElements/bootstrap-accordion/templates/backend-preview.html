@@ -1,1 +1,8 @@
-BE PREVIEW
+<f:for each="{data.items}" as="item">
+    <div class="border p-3">
+        <h5>{item.title}</h5>
+        <f:transform.html>
+            <f:format.crop maxCharacters="120" append="...">{item.text}</f:format.crop>
+        </f:transform.html>
+    </div>
+</f:for>
