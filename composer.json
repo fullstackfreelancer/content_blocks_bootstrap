@@ -1,5 +1,5 @@
 {
-  "name": "simonkoehler/content_blocks_bootstrap",
+  "name": "fullstackfreelancer/content_blocks_bootstrap",
   "type": "typo3-cms-extension",
   "description": "Provides Content Blocks for the Bootstrap Framework",
   "license": "GPL-2.0-or-later",
