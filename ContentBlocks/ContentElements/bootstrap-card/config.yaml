@@ -3,6 +3,8 @@ title: LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf
 typeName: bootstrap_card
 description: LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf:bootstrap_card.description
 group: content_blocks_bootstrap
+basics:
+    - TYPO3/Appearance
 fields:
   - identifier: header
     useExistingField: true
