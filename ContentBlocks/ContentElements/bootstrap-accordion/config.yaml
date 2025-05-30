@@ -6,8 +6,20 @@ group: content_blocks_bootstrap
 basics:
     - TYPO3/Appearance
 fields:
-  - identifier: header
-    useExistingField: true
+  - identifier: accordion_header
+    type: Palette
+    label: Headers
+    description:
+    fields:
+      - identifier: header
+        useExistingField: true
+      - identifier: header_layout
+        useExistingField: true
+      - identifier: header_position
+        useExistingField: true
+      - type: Linebreak
+      - identifier: subheader
+        useExistingField: true
   - identifier: items
     type: Collection
     labelField: title
