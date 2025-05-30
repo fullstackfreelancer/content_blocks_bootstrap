@@ -1,16 +1,10 @@
 <f:if condition="{data.header_layout} !== 100">
-<f:if condition="{data.header} && {data.subheader}">
 <header{f:if(condition: data.header_position, then: ' class="{data.header_position}"')}>
     <f:render section="mainheader" arguments="{_all}"/>
+    <f:if condition="{data.subheader}">
     <f:render section="subheader" arguments="{_all}"/>
+    </f:if>
 </header>
-</f:if>
-
-<f:if condition="{data.header} && !{data.subheader}">
-<header>
-    <f:render section="mainheader" arguments="{_all}"/>
-</header>
-</f:if>
 </f:if>
 
 <f:section name="mainheader">
