@@ -3,6 +3,15 @@
   "type": "typo3-cms-extension",
   "description": "Provides Content Blocks for the Bootstrap Framework",
   "license": "GPL-2.0-or-later",
+  "version": "0.0.5",
+  "authors": [
+      {
+        "name": "Simon Köhler",
+        "email": "simon@kohlercode.com",
+        "homepage": "https://kohlercode.com",
+        "role": "Developer"
+      }
+  ],
   "require": {
     "typo3/cms-core": "^13.4"
   },
@@ -10,5 +19,11 @@
     "typo3/cms": {
       "extension-key": "content_blocks_bootstrap"
     }
-  }
+  },
+  "funding": [
+    {
+      "type": "custom",
+      "url": "https://kohlercode.com/donate"
+    }
+  ]
 }
