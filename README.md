@@ -14,6 +14,7 @@ The extension is in beta testing and is not yet intended for use in live website
 | Card  | bootstrap_card  | Card with title, text (RTE) and image on top/bottom/no image |
 | Image/s  | bootstrap_image  | Single image or set of images. Number of columns per breakpoint configurable. |
 | Jumbotron  | bootstrap_jumbotron  | Header and text (RTE) with background image option |
+| Text  | bootstrap_text  | Header and text block (RTE) |
 
 (more coming soon)
 
