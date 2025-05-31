@@ -13,6 +13,8 @@ TCEFORM {
                 bootstrap_alert < .bootstrap_accordion
                 bootstrap_card < .bootstrap_accordion
                 bootstrap_jumbotron < .bootstrap_accordion
+                bootstrap_text < .bootstrap_accordion
+                bootstrap_images < .bootstrap_accordion
             }
         }
 
@@ -26,6 +28,9 @@ TCEFORM {
                 }
                 bootstrap_alert < .bootstrap_accordion
                 bootstrap_card < .bootstrap_accordion
+                bootstrap_jumbotron < .bootstrap_accordion
+                bootstrap_text < .bootstrap_accordion
+                bootstrap_images < .bootstrap_accordion
             }
         }
 
@@ -42,6 +47,8 @@ TCEFORM {
                 bootstrap_alert < .bootstrap_accordion
                 bootstrap_card < .bootstrap_accordion
                 bootstrap_jumbotron < .bootstrap_accordion
+                bootstrap_text < .bootstrap_accordion
+                bootstrap_images < .bootstrap_accordion
             }
         }
         space_after_class {
@@ -57,6 +64,8 @@ TCEFORM {
                 bootstrap_alert < .bootstrap_accordion
                 bootstrap_card < .bootstrap_accordion
                 bootstrap_jumbotron < .bootstrap_accordion
+                bootstrap_text < .bootstrap_accordion
+                bootstrap_images < .bootstrap_accordion
             }
         }
 
