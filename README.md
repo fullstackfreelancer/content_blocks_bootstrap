@@ -6,6 +6,18 @@ This extension provides a collection of content blocks for the Bootstrap framewo
 
 The extension is in beta testing and is not yet intended for use in live websites. It requires a theme or site package with the Bootstrap 5 framework.
 
+## Available Content Elements
+
+| Name  | Identifier |
+| ------------- | ------------- |
+| Accordion  | bootstrap_accordion  |
+| Alert  | bootstrap_alert  |
+| Card  | bootstrap_card  |
+| Image/s  | bootstrap_image  |
+| Jumbotron  | bootstrap_jumbotron  |
+
+(more coming soon)
+
 ## Support & Service
 
 If you have any problems with the extension, please let me know! Don't hesitate to send a message: https://kohlercode.com/contact
