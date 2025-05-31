@@ -1,0 +1,21 @@
+name: sk/bootstrap-jumbotron
+title: LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf:bootstrap_jumbotron.title
+typeName: bootstrap_jumbotron
+description: LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf:bootstrap_jumbotron.description
+group: content_blocks_bootstrap
+basics:
+    - TYPO3/Appearance
+fields:
+  - identifier: sk/bootstrap_header_palette
+    type: Basic
+  - identifier: bodytext
+    useExistingField: true
+    enableRichtext: true
+  - identifier: jumbotron_background
+    type: Palette
+    label: Background
+    description:
+    fields:
+      - identifier: image
+        useExistingField: true
+        label: Background Image

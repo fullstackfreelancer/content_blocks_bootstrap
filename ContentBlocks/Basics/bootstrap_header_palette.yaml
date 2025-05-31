@@ -1,0 +1,17 @@
+identifier: sk/bootstrap_header_palette
+fields:
+  - identifier: bootstrap_header_palette
+    type: Palette
+    label: Headers
+    fields:
+      - identifier: header
+        useExistingField: true
+      - identifier: header_layout
+        useExistingField: true
+      - identifier: header_position
+        useExistingField: true
+      - identifier: sk/bootstrap_header_class
+        type: Basic
+      - type: Linebreak
+      - identifier: subheader
+        useExistingField: true

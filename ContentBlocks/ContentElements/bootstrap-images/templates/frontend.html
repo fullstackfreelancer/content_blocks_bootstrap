@@ -1,0 +1,14 @@
+<f:render partial="Header" arguments="{_all}"/>
+<div class="row g-3 row-cols-{data.bootstrap_columns} row-cols-md-{data.bootstrap_columns_medium} row-cols-lg-{data.bootstrap_columns_large}">
+<f:for each="{data.image}" as="image">
+    <div class="col">
+        <picture>
+            <source srcset="{f:uri.image(image: image, cropVariant: 'desktop')}" media="(min-width: 992px)">
+            <source srcset="{f:uri.image(image: image, cropVariant: 'tablet')}" media="(min-width: 768px)">
+            <source srcset="{f:uri.image(image: image, cropVariant: 'default', width: '400')}" media="(max-width: 767px)">
+            <!---Fallback--->
+            <img class="img-fluid" src="{f:uri.image(image: image, cropVariant: 'default')}" alt="{image.alternative}" longdesc="{image.description}" title="{image.title}">
+        </picture>
+    </div>
+</f:for>
+</div>

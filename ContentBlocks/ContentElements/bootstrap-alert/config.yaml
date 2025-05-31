@@ -13,31 +13,7 @@ fields:
     type: Text
     rows: 5
     max: 300
-  - identifier: dismissible
-    label: LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf:bootstrap_alert.field.dismissible.label
-    description: LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf:bootstrap_alert.field.dismissible.description
-    type: Checkbox
-    renderType: checkboxToggle
-    default: 0
-  - identifier: color
-    label: LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf:bootstrap_alert.field.color.label
-    description: LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf:bootstrap_alert.field.color.description
-    type: Select
-    renderType: selectSingle
-    items:
-      - label: 'Primary'
-        value: primary
-      - label: 'Secondary'
-        value: secondary
-      - label: 'Success'
-        value: success
-      - label: 'Danger'
-        value: danger
-      - label: 'Warning'
-        value: warning
-      - label: 'Info'
-        value: info
-      - label: 'Light'
-        value: light
-      - label: 'Dark'
-        value: dark
+  - identifier: sk/bootstrap_dismissible
+    type: Basic
+  - identifier: sk/bootstrap_theme_color
+    type: Basic

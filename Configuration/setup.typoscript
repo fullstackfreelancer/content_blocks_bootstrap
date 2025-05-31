@@ -1,0 +1,5 @@
+lib.contentBlock {
+    partialRootPaths {
+        100 = EXT:content_blocks_bootstrap/Resources/Private/Partials/ContentElements/
+    }
+}

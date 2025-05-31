@@ -1,0 +1,14 @@
+name: sk/bootstrap-images
+title: LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf:bootstrap_images.title
+typeName: bootstrap_images
+description: LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf:bootstrap_images.description
+group: content_blocks_bootstrap
+fields:
+  - identifier: sk/bootstrap_header_palette
+    type: Basic
+  - identifier: image
+    useExistingField: true
+  - identifier: sk/bootstrap_columns
+    type: Basic
+  - identifier: image_zoom
+    useExistingField: true

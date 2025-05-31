@@ -1,0 +1,9 @@
+identifier: sk/bootstrap_dismissible
+fields:
+  - identifier: bootstrap_dismissible
+    prefixField: false
+    label: LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf:bootstrap_alert.field.dismissible.label
+    description: LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf:bootstrap_alert.field.dismissible.description
+    type: Checkbox
+    renderType: checkboxToggle
+    default: 0

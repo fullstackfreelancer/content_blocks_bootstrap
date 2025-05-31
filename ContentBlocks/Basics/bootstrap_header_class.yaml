@@ -1,0 +1,18 @@
+identifier: sk/bootstrap_header_class
+fields:
+  - identifier: bootstrap_header_class
+    prefixField: false
+    label: Header Class
+    type: Select
+    renderType: selectSingle
+    items:
+      - label: 'None'
+        value:
+      - label: 'Display 1'
+        value: display-1
+      - label: 'Display-2'
+        value: display-2
+      - label: 'Display-3'
+        value: display-3
+      - label: 'Display-4'
+        value: display-4

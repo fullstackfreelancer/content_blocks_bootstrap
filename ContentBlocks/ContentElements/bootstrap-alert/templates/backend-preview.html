@@ -1,5 +1,5 @@
-<div class="alert alert-{data.sk_bootstrapalert_color}{f:if(condition: data.sk_bootstrapalert_dismissible, then: ' alert-dismissible fade show')}">
-    {data.bodytext}
+<div class="alert alert-{data.bootstrap_theme_color}{f:if(condition: data.bootstrap_dismissible, then: ' alert-dismissible fade show')}">
+    <f:transform.html>{data.bodytext}</f:transform.html>
     <f:if condition="{data.sk_bootstrapalert_dismissible}">
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </f:if>

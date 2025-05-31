@@ -17,14 +17,14 @@
         <f:render partial="image" arguments="{image:data.image.0,class:'card-image-top'}"/>
     </f:if>
     <f:if condition="{data.header}">
-        <f:render partial="header" arguments="{header:data.header,layout:data.header_layout}"/>
+        <f:render partial="HeaderCard" arguments="{header:data.header,layout:data.header_layout}"/>
     </f:if>
     <f:render partial="body" arguments="{bodytext:data.bodytext}"/>
 </f:section>
 
 <f:section name="imagebottom">
     <f:if condition="{data.header}">
-        <f:render partial="header" arguments="{header:data.header,layout:data.header_layout}"/>
+        <f:render partial="HeaderCard" arguments="{header:data.header,layout:data.header_layout}"/>
     </f:if>
     <f:render partial="body" arguments="{bodytext:data.bodytext}"/>
     <f:if condition="{data.image.0}">
