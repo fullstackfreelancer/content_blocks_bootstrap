@@ -1,5 +1,4 @@
-# TYPO3 Content Blocks for Bootstrap
-
+# <img src="https://raw.githubusercontent.com/fullstackfreelancer/content_blocks_bootstrap/c8512ee74388ea8b22572272dd2d76d320b3126c/Resources/Public/Icons/Extension.svg" width="32"/> TYPO3 Content Blocks for Bootstrap
 This extension provides a collection of content blocks for the Bootstrap framework, based on the "content_blocks" extension. The content blocks can also be copied and used in other projects.
 
 ## Important Note!
