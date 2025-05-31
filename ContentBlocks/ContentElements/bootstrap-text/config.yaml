@@ -1,0 +1,13 @@
+name: sk/bootstrap-text
+title: LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf:bootstrap_text.title
+typeName: bootstrap_text
+description: LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf:bootstrap_text.description
+group: content_blocks_bootstrap
+basics:
+    - TYPO3/Appearance
+fields:
+  - identifier: sk/bootstrap_header_palette
+    type: Basic
+  - identifier: bodytext
+    useExistingField: true
+    enableRichtext: true
