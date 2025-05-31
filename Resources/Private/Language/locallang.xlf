@@ -4,6 +4,13 @@
 		<header/>
 		<body>
 
+			<trans-unit id="bootstrap_images.title">
+				<source>Image/s</source>
+			</trans-unit>
+			<trans-unit id="bootstrap_images.description">
+				<source>An image or image collection with options</source>
+			</trans-unit>
+
 			<trans-unit id="bootstrap_card.title">
 				<source>Card</source>
 			</trans-unit>
@@ -16,6 +23,13 @@
 			</trans-unit>
 			<trans-unit id="bootstrap_accordion.description">
 				<source>A standard Accordion with inline records</source>
+			</trans-unit>
+
+			<trans-unit id="bootstrap_jumbotron.title">
+				<source>Jumbotron</source>
+			</trans-unit>
+			<trans-unit id="bootstrap_jumbotron.description">
+				<source>Jumbotron with header, text and background image</source>
 			</trans-unit>
 
 			<trans-unit id="bootstrap_alert.title">
