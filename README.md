@@ -8,13 +8,13 @@ The extension is in beta testing and is not yet intended for use in live website
 
 ## Available Content Elements
 
-| Name  | Identifier |
-| ------------- | ------------- |
-| Accordion  | bootstrap_accordion  |
-| Alert  | bootstrap_alert  |
-| Card  | bootstrap_card  |
-| Image/s  | bootstrap_image  |
-| Jumbotron  | bootstrap_jumbotron  |
+| Name  | Identifier | Description
+| ------------- | ------------- | ------------- |
+| Accordion  | bootstrap_accordion  | Providing simple inline records with title and text (RTE). Will be extended in the future. |
+| Alert  | bootstrap_alert  | Simple alert with theme color selector and dismissible checkbox |
+| Card  | bootstrap_card  | Card with title, text (RTE) and image on top/bottom/no image |
+| Image/s  | bootstrap_image  | Single image or set of images. Number of columns per breakpoint configurable. |
+| Jumbotron  | bootstrap_jumbotron  | Header and text (RTE) with background image option |
 
 (more coming soon)
 
