@@ -4,6 +4,13 @@
 		<header/>
 		<body>
 
+			<trans-unit id="bootstrap_text.title">
+				<source>Text</source>
+			</trans-unit>
+			<trans-unit id="bootstrap_text.description">
+				<source>Simple text block with optional header</source>
+			</trans-unit>
+
 			<trans-unit id="bootstrap_images.title">
 				<source>Image/s</source>
 			</trans-unit>
