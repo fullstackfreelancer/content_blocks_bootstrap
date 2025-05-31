@@ -1,0 +1,22 @@
+<f:switch expression="{layout}">
+    <f:case value="1">
+        <h1 class="card-header">{header}</h1>
+    </f:case>
+    <f:case value="2">
+        <h2 class="card-header">{header}</h2>
+    </f:case>
+    <f:case value="3">
+        <h3 class="card-header">{header}</h3>
+    </f:case>
+    <f:case value="4">
+        <h4 class="card-header">{header}</h4>
+    </f:case>
+    <f:case value="5">
+        <h5 class="card-header">{header}</h5>
+    </f:case>
+    <f:case value="100">
+    </f:case>
+    <f:defaultCase>
+        <div class="card-header">{header}</div>
+    </f:defaultCase>
+</f:switch>

@@ -1,0 +1,56 @@
+<f:if condition="{data.header_layout} !== 100">
+<header{f:if(condition: data.header_position, then: ' class="{data.header_position}"')}>
+    <f:render section="mainheader" arguments="{_all}"/>
+    <f:if condition="{data.subheader}">
+    <f:render section="subheader" arguments="{_all}"/>
+    </f:if>
+</header>
+</f:if>
+
+<f:section name="mainheader">
+    <f:switch expression="{data.header_layout}">
+        <f:case value="1">
+            <h1>{data.header}</h1>
+        </f:case>
+        <f:case value="2">
+            <h2>{data.header}</h2>
+        </f:case>
+        <f:case value="3">
+            <h3>{data.header}</h3>
+        </f:case>
+        <f:case value="4">
+            <h4>{data.header}</h4>
+        </f:case>
+        <f:case value="5">
+            <h5>{data.header}</h5>
+        </f:case>
+        <f:case value="100"></f:case>
+        <f:defaultCase>
+            <h2>{data.header}</h2>
+        </f:defaultCase>
+    </f:switch>
+</f:section>
+
+<f:section name="subheader">
+    <f:switch expression="{data.header_layout}">
+        <f:case value="1">
+            <h2 class="fs-3">{data.subheader}</h2>
+        </f:case>
+        <f:case value="2">
+            <h3 class="fs-4">{data.subheader}</h3>
+        </f:case>
+        <f:case value="3">
+            <h4 class="fs-5">{data.subheader}</h4>
+        </f:case>
+        <f:case value="4">
+            <h5 class="fs-6">{data.subheader}</h5>
+        </f:case>
+        <f:case value="5">
+            <h6 class="small">{data.subheader}</h6>
+        </f:case>
+        <f:case value="100"></f:case>
+        <f:defaultCase>
+            <h3>{data.subheader}</h3>
+        </f:defaultCase>
+    </f:switch>
+</f:section>
