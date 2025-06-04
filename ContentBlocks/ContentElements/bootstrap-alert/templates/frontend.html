@@ -1,4 +1,5 @@
 <div id="c{data.uid}" class="alert alert-{data.bootstrap_theme_color}{f:if(condition: data.bootstrap_dismissible, then: ' alert-dismissible fade show')}" role="alert">
+    <div class="fw-bold">{data.header}</div>
     <f:format.raw>{data.bodytext}</f:format.raw>
     <f:if condition="{data.sk_bootstrapalert_dismissible}">
         <button type="button" class="btn-close" data-bs-dismiss="alert" title="{f:translate(key:'LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf:bootstrap_alert.field.dismissible.aria.close')}" aria-label="{f:translate(key:'LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf:bootstrap_alert.field.dismissible.aria.close')}"></button>
