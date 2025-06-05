@@ -1,7 +1,7 @@
-name: sk/bootstrap-menu-subpages
-title: LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf:bootstrap_menu_subpages.title
-typeName: bootstrap_menu_subpages
-description: LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf:bootstrap_menu_subpages.description
+name: sk/bootstrap-cards-subpages
+title: LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf:bootstrap_cards_subpages.title
+typeName: bootstrap_cards_subpages
+description: LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf:bootstrap_cards_subpages.description
 group: content_blocks_bootstrap
 basics:
     - TYPO3/Appearance
@@ -17,3 +17,5 @@ fields:
       default:
         additionalSearchFields: 'nav_title, url'
         addWhere: 'AND pages.doktype = 1'
+  - identifier: sk/bootstrap_columns
+    type: Basic

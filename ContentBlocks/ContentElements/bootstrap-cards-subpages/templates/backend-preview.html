@@ -1,0 +1,10 @@
+<ul class="list-group">
+    <f:debug inline="true">{data}</f:debug>
+    <f:for each="{data.pages}" as="page">
+    <li class="list-group-item">
+        <span class="text-body-secondary">
+            <f:link.page pageUid="{page.uid}"/>
+        </span>
+    </li>
+    </f:for>
+</ul>

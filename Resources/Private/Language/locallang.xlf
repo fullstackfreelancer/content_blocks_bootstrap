@@ -4,6 +4,16 @@
 		<header/>
 		<body>
 
+			<trans-unit id="bootstrap_cards_subpages.title">
+				<source>Cards of Subpages</source>
+			</trans-unit>
+			<trans-unit id="bootstrap_cards_subpages.description">
+				<source>Subpages of selected page as card components</source>
+			</trans-unit>
+			<trans-unit id="bootstrap_cards_subpages.more">
+				<source>more about it</source>
+			</trans-unit>
+
 			<trans-unit id="bootstrap_menu_subpages.title">
 				<source>Menu of Subpages</source>
 			</trans-unit>

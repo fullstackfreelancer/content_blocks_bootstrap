@@ -1,6 +1,17 @@
 TCEFORM {
     tt_content{
 
+        layout{
+            types{
+                bootstrap_menu_subpages{
+                    removeItems = 1,2,3
+                    addItems.10 = Base Navigation Centered
+                    addItems.15 = Base Navigation Right
+                    addItems.20 = Base Navigation Vertical
+                }
+            }
+        }
+
         header_layout {
             types{
                 bootstrap_accordion{
@@ -15,6 +26,7 @@ TCEFORM {
                 bootstrap_jumbotron < .bootstrap_accordion
                 bootstrap_text < .bootstrap_accordion
                 bootstrap_images < .bootstrap_accordion
+                bootstrap_menu_subpages < .bootstrap_accordion
             }
         }
 
@@ -31,6 +43,7 @@ TCEFORM {
                 bootstrap_jumbotron < .bootstrap_accordion
                 bootstrap_text < .bootstrap_accordion
                 bootstrap_images < .bootstrap_accordion
+                bootstrap_menu_subpages < .bootstrap_accordion
             }
         }
 
@@ -49,6 +62,7 @@ TCEFORM {
                 bootstrap_jumbotron < .bootstrap_accordion
                 bootstrap_text < .bootstrap_accordion
                 bootstrap_images < .bootstrap_accordion
+                bootstrap_menu_subpages < .bootstrap_accordion
             }
         }
         space_after_class {
@@ -66,6 +80,7 @@ TCEFORM {
                 bootstrap_jumbotron < .bootstrap_accordion
                 bootstrap_text < .bootstrap_accordion
                 bootstrap_images < .bootstrap_accordion
+                bootstrap_menu_subpages < .bootstrap_accordion
             }
         }
 

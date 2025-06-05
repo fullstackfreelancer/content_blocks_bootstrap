@@ -1,0 +1,20 @@
+<div class="row g-3 row-cols-{data.bootstrap_columns} row-cols-md-{data.bootstrap_columns_medium} row-cols-lg-{data.bootstrap_columns_large}">
+    <f:for each="{menu}" as="page">
+    <div class="col">
+        <div class="card h-100">
+            <f:if condition="{page.files.0}">
+            <a href="{page.link}">
+                <f:image image="{page.files.0}" class="img-fluid card-img-top"/>
+            </a>
+            </f:if>
+            <div class="card-body">
+                <div class="card-title fw-bold">
+                    {page.title}
+                </div>
+                <p class="card-text">{page.data.abstract}</p>
+                <a class="btn btn-primary" href="{page.link}">{f:translate(extensionName:'content_blocks_bootstrap',key:'bootstrap_cards_subpages.more',default:'more')}</a>
+            </div>
+        </div>
+    </div>
+    </f:for>
+</div>

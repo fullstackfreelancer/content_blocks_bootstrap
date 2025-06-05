@@ -1,0 +1,7 @@
+<ul class="nav nav-underline {classes}">
+    <f:for each="{menu}" as="page">
+    <li class="nav-item">
+        <a class="nav-link {f:if(condition: page.active, then: 'active')}" aria-current="page" href="{page.link}">{page.title}</a>
+    </li>
+    </f:for>
+</ul>

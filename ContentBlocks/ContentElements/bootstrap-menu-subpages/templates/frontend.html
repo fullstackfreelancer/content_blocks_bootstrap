@@ -1,4 +1,20 @@
 <div id="c{data.uid}">
-    menu subpages
-    <f:debug>{data}</f:debug>
+    <f:if condition="{menu}">
+        <f:switch expression="{data.layout}">
+
+            <f:case value="10">
+                <f:render partial="nav" arguments="{menu:menu,classes:'justify-content-center'}"/>
+            </f:case>
+            <f:case value="15">
+                <f:render partial="nav" arguments="{menu:menu,classes:'justify-content-end'}"/>
+            </f:case>
+            <f:case value="20">
+                <f:render partial="nav" arguments="{menu:menu,classes:'flex-column'}"/>
+            </f:case>
+            <f:defaultCase>
+                <f:render partial="nav" arguments="{_all}"/>
+            </f:defaultCase>
+
+        </f:switch>
+    </f:if>
 </div>

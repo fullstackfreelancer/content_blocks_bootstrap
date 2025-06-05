@@ -3,3 +3,23 @@ lib.contentBlock {
         100 = EXT:content_blocks_bootstrap/Resources/Private/Partials/ContentElements/
     }
 }
+
+tt_content.bootstrap_menu_subpages =< lib.contentElement
+tt_content.bootstrap_menu_subpages {
+    #templateName = MenuSubpages
+    dataProcessing {
+        10 = menu
+        10 {
+            special = directory
+            special.value.field = pages
+            dataProcessing {
+                10 = files
+                10 {
+                    references.fieldName = media
+                }
+            }
+        }
+    }
+}
+
+tt_content.bootstrap_cards_subpages < tt_content.bootstrap_menu_subpages
