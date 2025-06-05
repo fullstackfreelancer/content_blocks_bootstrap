@@ -1,0 +1,17 @@
+name: sk/bootstrap-menu-subpages
+title: LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf:bootstrap_menu_subpages.title
+typeName: bootstrap_menu_subpages
+description: LLL:EXT:content_blocks_bootstrap/Resources/Private/Language/locallang.xlf:bootstrap_menu_subpages.description
+group: content_blocks_bootstrap
+basics:
+    - TYPO3/Appearance
+fields:
+  - identifier: pages
+    useExistingField: true
+    type: Relation
+    allowed: 'pages'
+    maxitems: 1
+    suggestOptions:
+      default:
+        additionalSearchFields: 'nav_title, url'
+        addWhere: 'AND pages.doktype = 1'

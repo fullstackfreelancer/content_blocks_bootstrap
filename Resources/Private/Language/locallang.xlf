@@ -4,6 +4,13 @@
 		<header/>
 		<body>
 
+			<trans-unit id="bootstrap_menu_subpages.title">
+				<source>Menu of Subpages</source>
+			</trans-unit>
+			<trans-unit id="bootstrap_menu_subpages.description">
+				<source>Creates a menu of subpages of a selected page</source>
+			</trans-unit>
+
 			<trans-unit id="bootstrap_text.title">
 				<source>Text</source>
 			</trans-unit>
