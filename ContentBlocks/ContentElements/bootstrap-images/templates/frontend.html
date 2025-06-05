@@ -1,3 +1,4 @@
+<div id="c{data.uid}">
 <f:render partial="Header" arguments="{_all}"/>
 <div class="row g-3 row-cols-{data.bootstrap_columns} row-cols-md-{data.bootstrap_columns_medium} row-cols-lg-{data.bootstrap_columns_large}">
 <f:for each="{data.image}" as="image">
@@ -11,4 +12,5 @@
         </picture>
     </div>
 </f:for>
+</div>
 </div>
