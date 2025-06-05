@@ -1,4 +1,4 @@
-<div id="c{data.uid}" class="alert alert-{data.bootstrap_theme_color}{f:if(condition: data.bootstrap_dismissible, then: ' alert-dismissible fade show')}" role="alert">
+<div id="c{data.uid}" class="alert alert-{data.bootstrap_theme_color}{f:if(condition: data.bootstrap_dismissible, then: ' alert-dismissible fade show')} {data.space_before_class} {data.space_after_class}" role="alert">
     <div class="fw-bold">{data.header}</div>
     <f:format.raw>{data.bodytext}</f:format.raw>
     <f:if condition="{data.bootstrap_dismissible}">
