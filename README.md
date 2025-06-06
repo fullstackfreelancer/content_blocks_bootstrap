@@ -15,6 +15,8 @@ The extension is in beta testing and is not yet intended for use in live website
 | Image/s  | bootstrap_image  | Single image or set of images. Number of columns per breakpoint configurable. |
 | Jumbotron  | bootstrap_jumbotron  | Header and text (RTE) with background image option |
 | Text  | bootstrap_text  | Header and text block (RTE) |
+| Menu of Subpages  | bootstrap_menu_subpages  | Displays a menu of subpages of a selected page |
+| Cards of Subpages  | bootstrap_cards_subpages  | Displays Bootstrap Cards of subpages of a selected page |
 
 (more coming soon)
 
