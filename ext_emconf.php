@@ -11,15 +11,15 @@ $EM_CONF[$_EXTKEY] = [
     'version' => '0.0.3',
     'constraints' => [
         'depends' => [
-            'typo3' => '13.4.0-13.9.99',
-            'content_blocks' => '1.3.3'
+            'typo3' => '13.4.0-14.1.99',
+            'content_blocks' => '1.3.3 - 2.0.99'
         ],
         'conflicts' => [],
         'suggests' => [],
     ],
     'autoload' => [
         'psr-4' => [
-            'SIMONKOEHLER\\ContentBlocksBootstrap\\' => 'Classes',
+            'KOHLERCODE\\ContentBlocksBootstrap\\' => 'Classes',
         ],
     ],
 ];

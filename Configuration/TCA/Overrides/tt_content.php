@@ -11,4 +11,4 @@ use TYPO3\CMS\Core\Utility\ExtensionManagementUtility;
     'before:default',
 );
 
-$GLOBALS['TCA']['tt_content']['types']['bootstrap_cards_subpages']['previewRenderer'] = SIMONKOEHLER\ContentBlocksBootstrap\Preview\CardsOfSubpages::class;
+$GLOBALS['TCA']['tt_content']['types']['bootstrap_cards_subpages']['previewRenderer'] = KOHLERCODE\ContentBlocksBootstrap\Preview\CardsOfSubpages::class;
