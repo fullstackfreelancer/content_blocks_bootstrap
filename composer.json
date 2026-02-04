@@ -3,18 +3,17 @@
   "type": "typo3-cms-extension",
   "description": "Content Blocks Bootstrap - Provides Content Blocks for the Bootstrap Framework",
   "license": "GPL-2.0-or-later",
-  "version": "1.0.0",
   "authors": [
-      {
-        "name": "Simon Köhler",
-        "email": "simon@kohlercode.com",
-        "homepage": "https://kohlercode.com",
-        "role": "Developer"
-      }
+    {
+      "name": "Simon Köhler",
+      "email": "simon@kohlercode.com",
+      "homepage": "https://kohlercode.com",
+      "role": "Developer"
+    }
   ],
   "require": {
-    "typo3/cms-core": "^13.4.0-14.1.99",
-    "friendsoftypo3/content-blocks": "1.3.3-2.0"
+    "typo3/cms-core": "^13.4 || ^14.0",
+    "friendsoftypo3/content-blocks": "^1.3.3 || ^2.0"
   },
   "extra": {
     "typo3/cms": {
@@ -29,7 +28,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "KOHLERCODE\\ContentBlocksBootstrap\\": "Classes/"
+      "Kohlercode\\ContentBlocksBootstrap\\": "Classes/"
     }
   }
 }
